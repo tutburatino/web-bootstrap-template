@@ -1,0 +1,52 @@
+{
+  "name": "web-bootstrap-template",
+  "version": "1.0.0",
+  "description": "Template for fast start of frontend bootstrap web apps",
+  "main": "src/init.js",
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutburatino/web-bootstrap-template.git"
+  },
+  "keywords": [],
+  "author": "Firstname Lastname",
+  "license": "XXX",
+  "bugs": {
+    "url": "https://github.com/tutburatino/web-bootstrap-template.git/issues"
+  },
+  "homepage": "https://github.com/tutburatino/web-bootstrap-template.git#readme",
+  "jest": {
+    "verbose": true,
+    "testPathIgnorePatterns": [
+      "./__tests__/__fixtures__/"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^28.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^26.2.2",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
+    "jest-cli": "^28.1.0",
+    "sass": "^1.32.5",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
